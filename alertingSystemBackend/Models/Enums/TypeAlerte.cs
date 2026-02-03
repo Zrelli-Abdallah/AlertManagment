@@ -1,4 +1,4 @@
-namespace Models.Enums.TypeAlerte
+namespace Alertes.Models.Enums
 {
     /// <summary>
     /// Type d'alerte selon la source

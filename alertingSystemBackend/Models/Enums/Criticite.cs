@@ -1,4 +1,4 @@
-namespace Models.Enums.Criticite
+namespace Alertes.Models.Enums
 {
     /// <summary>
     /// Niveau de criticité d'une alerte

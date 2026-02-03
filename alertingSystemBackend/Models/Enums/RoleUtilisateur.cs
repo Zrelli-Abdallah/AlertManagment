@@ -1,4 +1,4 @@
-namespace Models.Enums.RoleUtilisateur
+namespace Alertes.Models.Enums
 {
     /// <summary>
     /// Rôles utilisateur dans le système hiérarchique

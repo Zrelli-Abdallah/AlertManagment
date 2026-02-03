@@ -1,4 +1,4 @@
-namespace Models.Enums.StatutAlerte
+namespace Alertes.Models.Enums
 {
     /// <summary>
     /// Statut d'une alerte dans son cycle de vie

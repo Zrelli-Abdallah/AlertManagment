@@ -1,4 +1,4 @@
-namespace Models.Enums.NiveauEscalade
+namespace Alertes.Models.Enums
 {
     /// <summary>
     /// Niveau hiérarchique d'escalade

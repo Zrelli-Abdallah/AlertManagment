@@ -1,7 +1,4 @@
-using Models.Enums.Criticite;
-using Models.Enums.NiveauEscalade;
-using Models.Enums.StatutAlerte;
-using Models.Enums.TypeAlerte;
+using Alertes.Models.Enums;
 
 public class Alert
 {
