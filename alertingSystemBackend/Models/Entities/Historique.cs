@@ -5,8 +5,8 @@ namespace Alertes.Models
     public class Historique
     {
         public long Id { get; set; }
-        public long AlerteId { get; set; }
-        public long UtilisateurId { get; set; }
+        public Alert Alerte { get; set; }
+        public Utilisateur Utilisateur { get; set; }
 
         public string Action { get; set; }
         public StatutAlerte AncienStatut { get; set; }

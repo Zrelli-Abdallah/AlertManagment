@@ -20,5 +20,5 @@ public class Alert
     
     public string Metadata { get; set; }  // JSON
     public long SourceId { get; set; }
-    public long? ResponsableActuelId { get; set; }
+    public User ResponsableActuel { get; set; }
 }
