@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("BackendAPI")));
 
-app.MagAlertEndpoints();
+app.MapAlerteEndpoints();
 app.Run();
 
 
