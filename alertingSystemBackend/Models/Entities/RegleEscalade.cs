@@ -16,6 +16,5 @@ namespace Alertes.Models
         public int DelaiAvantEscalade { get; set; }
         public bool Active { get; set; }
 
-        public string HorairesApplication { get; set; }
     }
 }
