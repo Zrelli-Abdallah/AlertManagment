@@ -6,8 +6,10 @@ namespace Alertes.Models
     {
         public long Id { get; set; }
 
+        public long AlerteId { get; set; }
         public Alert Alerte { get; set; }
-        public Utilisateur Destinataire { get; set; }
+        public long DestinataireId { get; set; }
+        public User Destinataire { get; set; }
 
         public TypeNotification TypeNotification { get; set; }
         public CanalNotification Canal { get; set; }

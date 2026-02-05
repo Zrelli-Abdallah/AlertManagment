@@ -1,4 +1,4 @@
-using Models.Enums.RoleUtilisateur;
+using Alertes.Models.Enums;
 
 public class User
 {

@@ -1,3 +1,4 @@
+// Maps C# to DB columns
 public class ApplicationDBContext : DbContext
 {
     public ApplicationDBContext(DbContextOptions dbContextOptions) : base(dbContextOptions) { }
