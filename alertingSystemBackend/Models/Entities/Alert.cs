@@ -1,6 +1,8 @@
 using Alertes.Models.Enums;
 
 
+namespace alertingSystemBackend.Models.Entities
+{
 public class Alert
 {
     public long Id { get; set; }
@@ -21,5 +23,6 @@ public class Alert
     
     public string Metadata { get; set; }  // JSON
     public long SourceId { get; set; }
-    public long? ResponsableActuel { get; set; }  // FK matches DB type
+    public User ResponsableActuel { get; set; }  // FK matches DB type
+}
 }

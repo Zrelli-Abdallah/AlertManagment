@@ -1,14 +1,12 @@
 using Alertes.Models.Enums;
 
-namespace Alertes.Models
+namespace alertingSystemBackend.Models.Entities
 {
     public class Notification
     {
         public long Id { get; set; }
 
-        public long AlerteId { get; set; }
         public Alert Alerte { get; set; }
-        public long DestinataireId { get; set; }
         public User Destinataire { get; set; }
 
         public TypeNotification TypeNotification { get; set; }

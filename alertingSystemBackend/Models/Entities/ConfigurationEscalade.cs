@@ -1,4 +1,4 @@
-namespace Alertes.Models
+namespace alertingSystemBackend.Models.Entities
 {
     public class ConfigurationEscalade
     {
