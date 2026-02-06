@@ -1,12 +1,12 @@
 using Alertes.Models.Enums;
 
-namespace Alertes.Models
+namespace alertingSystemBackend.Models.Entities
 {
     public class Historique
     {
         public long Id { get; set; }
         public Alert Alerte { get; set; }
-        public Utilisateur Utilisateur { get; set; }
+        public User Utilisateur { get; set; }
 
         public string Action { get; set; }
         public StatutAlerte AncienStatut { get; set; }

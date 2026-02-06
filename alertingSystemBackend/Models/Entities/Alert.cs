@@ -1,5 +1,8 @@
 using Alertes.Models.Enums;
 
+
+namespace alertingSystemBackend.Models.Entities
+{
 public class Alert
 {
     public long Id { get; set; }
@@ -7,7 +10,7 @@ public class Alert
     public string Description { get; set; }
     public TypeAlerte TypeAlerte { get; set; }
     public Criticite Criticite { get; set; }
-    public StatutAlerte Statut { get; set; }
+    public StatutAlerte StatutAlert { get; set; }
     public NiveauEscalade NiveauEscaladeActuel { get; set; }
     
     // Lifecycle dates
@@ -20,5 +23,6 @@ public class Alert
     
     public string Metadata { get; set; }  // JSON
     public long SourceId { get; set; }
-    public User ResponsableActuel { get; set; }
+    public User ResponsableActuel { get; set; }  // FK matches DB type
+}
 }

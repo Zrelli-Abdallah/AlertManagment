@@ -1,6 +1,6 @@
 using Alertes.Models.Enums;
 
-namespace Alertes.Models
+namespace alertingSystemBackend.Models.Entities
 {
     public class RegleEscalade
     {
