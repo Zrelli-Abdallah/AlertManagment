@@ -14,6 +14,9 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
     )
 );
 
+//register the alert service
+builder.Services.AddScoped<IAlerteServicePostgres, AlerteServicePostgres>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,12 @@
+# Dossiers générés par .NET
+bin/
+obj/
+
+# Fichiers de configuration sensibles
+appsettings.json
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
